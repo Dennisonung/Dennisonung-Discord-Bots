@@ -379,13 +379,9 @@ client.on('message', async (message) => {
 //     const args = message.content.slice(prefixreact.length).split(/ +/);
 //     const command = args.shift().toLowerCase();
 
-//     if (message.content.includes(`reddit`) || message.content.includes('Reddit'
+//     if (message.content.includes(`message`) || message.content.includes('message here'
 //     )) {
-//         message.react('🤡')
-//     } else if (message.content.toLowerCase().includes('uwu') || message.content.includes('UwU')) {
-//         message.react('784143749738790952')
-//     } else if (message.content.toLowerCase().includes('twitter') || message.content.includes('Twitter')) {
-//         message.react('🤮')
+//         message.react('EMOJI HERE')
 //     }
 // });
 
