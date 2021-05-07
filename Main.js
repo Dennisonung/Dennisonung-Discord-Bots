@@ -1,7 +1,7 @@
 
 //  Dennisonung Bot Code (https://github.com/Dennisonung/Dennisonung-Discord-Bots/)
-//  Licensed under GNU General Public License v3.0 (https://github.com/Dennisonung/Dennisonung-Discord-Bots/blob/master/LICENSE)
-//  Dennisonung Bot Code | GNU General Public License v3.0 | https://github.com/Dennisonung/Dennisonung-Discord-Bots
+//  Licensed under Apache-2.0 License (https://github.com/Dennisonung/Dennisonung-Discord-Bots/blob/master/LICENSE)
+//  Dennisonung Bot Code | Apache-2.0 License| https://github.com/Dennisonung/Dennisonung-Discord-Bots
 
 const Discord = require('discord.js'); //Discord.JS 
 
