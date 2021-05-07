@@ -458,5 +458,5 @@ client.on('message', async (message) => {
 // ===================================================================================================                                                                       
  
 //ADD BOTS TOKEN (TOP PRIORITY LEVEL)
-client.login('Nzk2MjA5MTQ2MzIzMTQwNjI5.X_UljQ.b1hQPfGJn-cGqo8AbV_3YiR905w');
+client.login('');
 // ===================================================================================================
