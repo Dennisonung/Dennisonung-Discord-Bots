@@ -74,8 +74,11 @@ client.on('message', async (message) => {
                 .setFooter(`Prefix ` + prefix + ` || This bot was created by https://ddc-dev.com/`);
             mess.edit(DeletedEmbed);
         } else return
+    } else if (command == 'help'){
+        client.commands.get("help").execute(message, args, Discord, prefix)
     }
 })
+
 
 //===============================================================================================================================================
 //   _____   _______              _____    _______      ____    ______     __  __    ____    _____             _         ____     _____    _____ 

@@ -61,7 +61,7 @@ module.exports = {
                     { name: "Error", value: err },
                     { name: "Error Help:", value: `If you believe that this is a code error and not a guild(server) side problem, please contact <@397268534033514497>` }
                 )
-                .setFooter(`Prefix ` + prefix + ` || Email: admin@dev-ddc.com`);
+                .setFooter(`Prefix ` + prefix + ` || Email: dennis@dev-ddc.com`);
 
 
             message.channel.send(errorEmbed)
