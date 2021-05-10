@@ -15,7 +15,7 @@ module.exports = {
             const memberTarget = message.guild.members.cache.get(target.id);
                 const KickedBotEmbed = new Discord.MessageEmbed()
                 .setColor('#ff0000')
-                .setDescription(`You can't ban YRESL bot.`);
+                .setDescription(`You can't ban the bot.`);
             if (memberTarget.id === '790479858455150622') return message.channel.send(KickedBotEmbed)
             const sadkick = new Discord.MessageEmbed()
                 .setColor('#ff0000')
@@ -61,7 +61,7 @@ module.exports = {
                     { name: "Error", value: err },
                     { name: "Error Help:", value: `If you believe that this is a code error and not a guild(server) side problem, please contact <@397268534033514497>` }
                 )
-                .setFooter(`Prefix ` + prefix + ` || Email: dennis@dev-ddc.com`);
+                .setFooter(`Prefix ` + prefix + ` || Email: admin@dev-ddc.com`);
 
 
             message.channel.send(errorEmbed)

@@ -15,7 +15,7 @@ module.exports = {
             const memberTarget = message.guild.members.cache.get(target.id);
                 const KickedBotEmbed = new Discord.MessageEmbed()
                 .setColor('#ff0000')
-                .setDescription(`You can't ban bhop bot.`);
+                .setDescription(`You can't ban the bot.`);
             if (memberTarget.id === '790479858455150622') return message.channel.send(KickedBotEmbed)
             const sadkick = new Discord.MessageEmbed()
                 .setColor('#ff0000')

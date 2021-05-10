@@ -1,7 +1,7 @@
 
 //  Dennisonung Bot Code (https://github.com/Dennisonung/Dennisonung-Discord-Bots/)
-//  Licensed under Apache-2.0 License (https://github.com/Dennisonung/Dennisonung-Discord-Bots/blob/master/LICENSE)
-//  Dennisonung Bot Code | Apache-2.0 License| https://github.com/Dennisonung/Dennisonung-Discord-Bots
+//  Licensed under GNU General Public License v3.0 (https://github.com/Dennisonung/Dennisonung-Discord-Bots/blob/master/LICENSE)
+//  Dennisonung Bot Code | GNU General Public License v3.0 | https://github.com/Dennisonung/Dennisonung-Discord-Bots
 
 const Discord = require('discord.js'); //Discord.JS 
 
@@ -74,11 +74,24 @@ client.on('message', async (message) => {
                 .setFooter(`Prefix ` + prefix + ` || This bot was created by https://ddc-dev.com/`);
             mess.edit(DeletedEmbed);
         } else return
-    } else if (command == 'help'){
-        client.commands.get("help").execute(message, args, Discord, prefix)
+    } else if (command == 'help') {
+        client.commands.get("help").execute(message, args, Discord, prefix);
+    } else if (command == 'help-mod-tools') {
+        client.commands.get("help modtools").execute(message, args, Discord, prefix);
+    } else if (command == 'purge') {
+        client.commands.get("Clear").execute(message, args, Discord, prefix);
+    } else if (command == 'ban') {
+        client.commands.get("Ban").execute(message, args, Discord, prefix);
+    } else if (command == 'kick') {
+        client.commands.get("mkick").execute(message, args, Discord, prefix);
+    } else if (command == 'mute') {
+        client.commands.get("Mute").execute(message, args, Discord, prefix);
+    } else if (command == 'unmute') {
+        client.commands.get("unmute").execute(message, args, Discord, prefix);
+    } else if (command == 'bansave') {
+        client.commands.get('Bansave').execute(message, args, Discord, prefix)
     }
 })
-
 
 //===============================================================================================================================================
 //   _____   _______              _____    _______      ____    ______     __  __    ____    _____             _         ____     _____    _____ 
@@ -382,9 +395,13 @@ client.on('message', async (message) => {
 //     const args = message.content.slice(prefixreact.length).split(/ +/);
 //     const command = args.shift().toLowerCase();
 
-//     if (message.content.includes(`message`) || message.content.includes('message here'
+//     if (message.content.includes(`reddit`) || message.content.includes('Reddit'
 //     )) {
-//         message.react('EMOJI HERE')
+//         message.react('🤡')
+//     } else if (message.content.toLowerCase().includes('uwu') || message.content.includes('UwU')) {
+//         message.react('784143749738790952')
+//     } else if (message.content.toLowerCase().includes('twitter') || message.content.includes('Twitter')) {
+//         message.react('🤮')
 //     }
 // });
 
@@ -457,5 +474,5 @@ client.on('message', async (message) => {
 // ===================================================================================================                                                                       
  
 //ADD BOTS TOKEN (TOP PRIORITY LEVEL)
-client.login('');
+client.login('Nzk2MjA5MTQ2MzIzMTQwNjI5.X_UljQ.b1hQPfGJn-cGqo8AbV_3YiR905w');
 // ===================================================================================================
